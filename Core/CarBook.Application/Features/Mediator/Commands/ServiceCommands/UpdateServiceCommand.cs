@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.Mediator.Commands.ServiceCommands
 {
-    public class UpdateSocialMediaCommand:IRequest
+    public class UpdateServiceCommand:IRequest
     {
         public string Id { get; set; }
         public string Title { get; set; }

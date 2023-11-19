@@ -44,7 +44,7 @@ namespace CarBook.WebApi.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateService(UpdateSocialMediaCommand command)
+        public async Task<IActionResult> UpdateService(UpdateServiceCommand command)
         {
             await _mediator.Send(command);
             return Ok("Service Güncellendi");
